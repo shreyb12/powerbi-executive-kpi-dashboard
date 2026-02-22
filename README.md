@@ -14,11 +14,20 @@ An executive-ready Power BI dashboard designed to track commercial and operation
 - Star schema semantic model (facts + dimensions)
 - Performance optimization (measure design, model hygiene)
 
-## Screenshots
-> Add 3–6 screenshots inside `/images/` and link them here:
-- Executive Overview: `images/overview.png`
-- Trend & Breakdown: `images/trends.png`
-- Drilldown: `images/drilldown.png`
+## 📸 Screenshots
+
+### Executive Overview
+![Executive Overview](overview.png)
+
+---
+
+### Trends & Breakdown
+![Trends & Breakdown](trends.png)
+
+---
+
+### Detail / Drilldown
+![Detail](drilldown.png)
 
 ## Notes
 This repo shares structure and visuals. Sensitive business data is removed / anonymized.
