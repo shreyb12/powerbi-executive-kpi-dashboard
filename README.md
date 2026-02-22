@@ -13,7 +13,7 @@
 
 A production-style executive dashboard built in Power BI to monitor commercial and operational performance across regions and product segments.
 
-The solution follows a **semantic model–first approach**, combining a clean star schema with structured DAX measures to deliver scalable, decision-ready reporting.
+The solution follows a semantic model–first architecture, combining a clean star schema with structured DAX measures to deliver scalable, decision-ready reporting.
 
 ---
 
@@ -22,27 +22,34 @@ The solution follows a **semantic model–first approach**, combining a clean st
 - Executive KPI framework (Revenue, Volume, Margin, Operational metrics)
 - Multi-year performance tracking with YoY and MoM variance analysis
 - Drill-through navigation for root cause analysis
-- Structured measure layer for maintainability and reuse
-- Performance-optimized data model and relationships
-- Clean UX designed for leadership consumption
+- Structured and reusable DAX measure layer
+- Performance-optimized data model
+- Executive-focused UX design
 
 ---
 
 ## Architecture
 
-- **Data Preparation:** Power Query (transformation, shaping, standardization)
-- **Data Model:** Star schema (Fact + Conformed Dimensions)
-- **Calculation Layer:** DAX measures (time intelligence, variance, contribution)
-- **Visualization Layer:** Executive summary + analytical breakdown + detail view
+**Data Preparation**  
+Power Query for transformation, shaping, and standardization.
+
+**Data Model**  
+Star schema design with fact tables and conformed dimensions.
+
+**Calculation Layer**  
+DAX measures for time intelligence, variance analysis, and contribution logic.
+
+**Visualization Layer**  
+Executive summary → Analytical breakdown → Detail drilldown.
 
 ---
 
 ## Business Value
 
-- Enables faster executive decision-making through consolidated KPI visibility
+- Accelerates executive decision-making through consolidated KPI visibility
 - Reduces manual reporting effort with refresh-ready datasets
-- Improves analytical depth via drilldowns and contribution analysis
-- Supports scalable self-service reporting through structured modeling
+- Enables deeper analysis through structured drilldowns
+- Supports scalable self-service reporting through clean modeling
 
 ---
 
@@ -68,5 +75,5 @@ The solution follows a **semantic model–first approach**, combining a clean st
 - Time intelligence patterns (YTD, YoY %, Rolling trends)
 - Variance analysis (Actual vs Target)
 - Contribution analysis across hierarchical dimensions
-- Clean model design (controlled relationships, optimized measures)
-- Scalable naming conventions and measure organization
+- Controlled relationships and optimized measures
+- Clean naming conventions and scalable measure organization
